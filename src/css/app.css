@@ -138,52 +138,7 @@ hr {
  *******************
 */
 
-section {
-  background: #fff;
-}
 
-main h1 {
-  font-family: 'Roboto', sans-serif;
-}
-
-/* HEADER */
-
-header {
-  display: inline-block;
-  width: 100%;
-  background: #000;
-}
-
-header nav {
-  float: right;
-}
-
-header nav li {
-  float: left;
-  margin-left: 10px;
-}
-
-/* EXAMPLE SECTION */
-
-section.example {
-  width: 100%;
-}
-
-.example .cards {
-  display: inline-block;
-  margin-bottom: -4px;
-}
-
-.example article {
-  float: left;
-}
-
-/* FOOTER */
-
-footer {
-  display: block;
-  width: 100%;
-}
 
 /*
  *******************

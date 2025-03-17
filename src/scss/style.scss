@@ -64,13 +64,13 @@ body {
 @media (max-width: 767px) {
 
   .right-section::after {
-    width: 100%; /* Dostosowanie szerokości */
-    left: 0; /* Ustawienie w obrębie widocznej sekcji */
-    transform: none; /* Wyłączenie przesunięcia */
+    width: 100%;
+    left: 0;
+    transform: none;
   }
 
   .files p {
-    font-size: 1em; /* Zmniejszenie czcionki */
+    font-size: 1em;
   }
 }
 
@@ -160,8 +160,8 @@ body {
     font-weight: 200;
     font-size: 18px;
     position: relative;
-    display: flex; /* Flexbox dla lepszego układu obrazka i tekstu */
-    align-items: center; /* Wyrównanie w pionie */
+    display: flex;
+    align-items: center;
 
     .index {
       min-width: 45px;
@@ -176,16 +176,16 @@ body {
     img {
       display: block;
       height: auto;
-      padding-right: 100px; /* Węższy odstęp dla urządzeń mobilnych */
+      padding-right: 100px;
     }
 
     .question {
-      flex: 1; /* Pozwoli, aby tekst zajął pozostałą przestrzeń */
+      flex: 1;
     }
 
     @media (max-width: 767px) {
-      flex-wrap: wrap; /* Wymuszenie zawijania się elementów w pionie */
-      align-items: center; /* Ustawienie elementów na górze */
+      flex-wrap: wrap;
+      align-items: center;
       
       .index {
         margin-right: 10px;
@@ -194,15 +194,15 @@ body {
 
       img {
         margin-left: 10px;
-        max-width: 50%; /* Zmniejszenie obrazka do połowy szerokości */
-        margin-top: 10px; /* Przerwa dla obrazka */
+        max-width: 50%;
+        margin-top: 10px;
       }
 
     }
 
     @media (max-width: 1024px) {
       img {
-        padding-right: 20px; // Mniejszy odstęp na urządzeniach mobilnych
+        padding-right: 20px;
       }
     }
   }
